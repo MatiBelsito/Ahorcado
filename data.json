@@ -1,0 +1,252 @@
+[
+    {
+        "ID": 1,
+        "ingles": "apple",
+        "castellano": "manzana"
+    },
+    {
+        "ID": 2,
+        "ingles": "banana",
+        "castellano": "banana"
+    },
+    {
+        "ID": 3,
+        "ingles": "grape",
+        "castellano": "uva"
+    },
+    {
+        "ID": 4,
+        "ingles": "orange",
+        "castellano": "naranja"
+    },
+    {
+        "ID": 5,
+        "ingles": "strawberry",
+        "castellano": "fresa"
+    },
+    {
+        "ID": 6,
+        "ingles": "cat",
+        "castellano": "gato"
+    },
+    {
+        "ID": 7,
+        "ingles": "dog",
+        "castellano": "perro"
+    },
+    {
+        "ID": 8,
+        "ingles": "house",
+        "castellano": "casa"
+    },
+    {
+        "ID": 9,
+        "ingles": "car",
+        "castellano": "auto"
+    },
+    {
+        "ID": 10,
+        "ingles": "tree",
+        "castellano": "arbol"
+    },
+    {
+        "ID": 11,
+        "ingles": "computer",
+        "castellano": "computadora"
+    },
+    {
+        "ID": 12,
+        "ingles": "keyboard",
+        "castellano": "teclado"
+    },
+    {
+        "ID": 13,
+        "ingles": "mouse",
+        "castellano": "rato"
+    },
+    {
+        "ID": 14,
+        "ingles": "screen",
+        "castellano": "pantalla"
+    },
+    {
+        "ID": 15,
+        "ingles": "monitor",
+        "castellano": "monitor"
+    },
+    {
+        "ID": 16,
+        "ingles": "sun",
+        "castellano": "sol"
+    },
+    {
+        "ID": 17,
+        "ingles": "moon",
+        "castellano": "luna"
+    },
+    {
+        "ID": 18,
+        "ingles": "star",
+        "castellano": "estrella"
+    },
+    {
+        "ID": 19,
+        "ingles": "sky",
+        "castellano": "cielo"
+    },
+    {
+        "ID": 20,
+        "ingles": "cloud",
+        "castellano": "nube"
+    },
+    {
+        "ID": 21,
+        "ingles": "book",
+        "castellano": "libro"
+    },
+    {
+        "ID": 22,
+        "ingles": "pen",
+        "castellano": "pluma"
+    },
+    {
+        "ID": 23,
+        "ingles": "pencil",
+        "castellano": "lapiz"
+    },
+    {
+        "ID": 24,
+        "ingles": "paper",
+        "castellano": "papel"
+    },
+    {
+        "ID": 25,
+        "ingles": "notebook",
+        "castellano": "cuaderno"
+    },
+    {
+        "ID": 26,
+        "ingles": "school",
+        "castellano": "escuela"
+    },
+    {
+        "ID": 27,
+        "ingles": "teacher",
+        "castellano": "maestro"
+    },
+    {
+        "ID": 28,
+        "ingles": "student",
+        "castellano": "estudiante"
+    },
+    {
+        "ID": 29,
+        "ingles": "classroom",
+        "castellano": "aula"
+    },
+    {
+        "ID": 30,
+        "ingles": "blackboard",
+        "castellano": "pizarra"
+    },
+    {
+        "ID": 31,
+        "ingles": "city",
+        "castellano": "ciudad"
+    },
+    {
+        "ID": 32,
+        "ingles": "town",
+        "castellano": "pueblo"
+    },
+    {
+        "ID": 33,
+        "ingles": "village",
+        "castellano": "villa"
+    },
+    {
+        "ID": 34,
+        "ingles": "mountain",
+        "castellano": "montana"
+    },
+    {
+        "ID": 35,
+        "ingles": "river",
+        "castellano": "rio"
+    },
+    {
+        "ID": 36,
+        "ingles": "ocean",
+        "castellano": "oceano"
+    },
+    {
+        "ID": 37,
+        "ingles": "beach",
+        "castellano": "playa"
+    },
+    {
+        "ID": 38,
+        "ingles": "desert",
+        "castellano": "desierto"
+    },
+    {
+        "ID": 39,
+        "ingles": "forest",
+        "castellano": "bosque"
+    },
+    {
+        "ID": 40,
+        "ingles": "jungle",
+        "castellano": "selva"
+    },
+    {
+        "ID": 41,
+        "ingles": "bird",
+        "castellano": "pajaro"
+    },
+    {
+        "ID": 42,
+        "ingles": "fish",
+        "castellano": "pez"
+    },
+    {
+        "ID": 43,
+        "ingles": "lion",
+        "castellano": "leon"
+    },
+    {
+        "ID": 44,
+        "ingles": "tiger",
+        "castellano": "tigre"
+    },
+    {
+        "ID": 45,
+        "ingles": "elephant",
+        "castellano": "elefante"
+    },
+    {
+        "ID": 46,
+        "ingles": "friend",
+        "castellano": "amigo"
+    },
+    {
+        "ID": 47,
+        "ingles": "family",
+        "castellano": "familia"
+    },
+    {
+        "ID": 48,
+        "ingles": "love",
+        "castellano": "amor"
+    },
+    {
+        "ID": 49,
+        "ingles": "peace",
+        "castellano": "paz"
+    },
+    {
+        "ID": 50,
+        "ingles": "happiness",
+        "castellano": "felicidad"
+    }
+]
