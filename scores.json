@@ -1,0 +1,36 @@
+[
+    {
+        "nombre": "Matias",
+        "puntaje": 10
+    },
+    {
+        "nombre": "Lucia",
+        "puntaje": 9
+    },
+    {
+        "nombre": "Matias",
+        "puntaje": 11
+    },
+    {
+        "nombre": "Lucia",
+        "puntaje": 10
+    },
+    {
+        "nombre": "Matias",
+        "puntaje": 14
+    },
+    {
+        "nombre": "Lucia",
+        "puntaje": 9
+    },
+    {
+        "nombre": "Lucia",
+        "puntaje": 10
+    },
+    {
+        "nombre": "Marco",
+        "puntaje": 12,
+        "palabra": "bosque",
+        "intentos_restantes": 6
+    }
+]

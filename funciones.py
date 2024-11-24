@@ -83,13 +83,29 @@ for i in range(len(lista_en_castellano)):
     }
     palabras.append(palabra)
 
-# Guardar el archivo JSON
+# Guardar el archivo JSON de palabras
 with open("data.json", "w") as file:
     json.dump(palabras, file, indent=4)
 
 # Función para obtener una palabra aleatoria
 def obtener_palabra_aleatoria():
     return random.choice(palabras)
+
+# Función para guardar los puntajes en el archivo JSON
+def guardar_puntajes(nombre, puntaje, palabra_correcta, intentos):
+    # Intento leer los puntajes existentes desde el archivo
+    try:
+        with open("scores.json", "r") as file:
+            puntajes = json.load(file)
+    except FileNotFoundError:
+        puntajes = []  # Si no existe el archivo, creo una lista vacía
+
+    # Agrego el nuevo puntaje a la lista
+    puntajes.append({"nombre": nombre, "puntaje": puntaje, "palabra": palabra_correcta, "intentos_restantes": intentos})
+
+    # Guardar los puntajes actualizados en el archivo
+    with open("scores.json", "w") as file:
+        json.dump(puntajes, file, indent=4)
 
 # Función para adivinar la palabra
 def adivinar_palabra(palabra_correcta):
@@ -118,20 +134,18 @@ def adivinar_palabra(palabra_correcta):
             print("         / \ ")
             print("          |  ")
             print("         /   ")
-        
-            
-        
+
         print(f"Letras correctas: {letras_correctas}")
         print(f"Letras incorrectas: {letras_incorrectas}")
         print("Palabra actual: " + "".join(adivinanza))
         print("-"* len ("Palabra actual: " + "".join(adivinanza)))
     
-        letra = input("Ingresa una letra: ").lower()  # Aseguramos que la letra sea en minúsculas
+        letra = input("Ingresa una letra: ").lower()  # Aseguro que la letra sea en minúsculas
 
-        # Verificar si la letra ya fue ingresada
+        # Verifico si la letra ya fue ingresada
         if letra in letras_correctas or letra in letras_incorrectas:
             print("Ya has intentado esta letra, elige otra.")
-            continue # si esta condición es verdadera salta todo el código que sigue y vuelve a iniciar el bucle while
+            continue  # Si esta condición es verdadera, salto el resto del código y vuelvo a iniciar el bucle while
     
         # Comprobar si la letra está en la palabra
         if letra in palabra_correcta:
@@ -142,42 +156,48 @@ def adivinar_palabra(palabra_correcta):
         else:
             letras_incorrectas.append(letra)
             intentos -= 1
-    
-        # Verificar si el jugador ha adivinado toda la palabra
+        
+        # Verifico si el jugador ha adivinado toda la palabra
         if "".join(adivinanza) == palabra_correcta:
+            puntaje = len(palabra_correcta) + intentos  # El puntaje es la cantidad de letras de la palabra + la cantidad de intentos que le quedaron
             print(f"¡Has adivinado la palabra! La palabra correcta era: {palabra_correcta}")
-            # break
-            comenzar_a_adivinar()
+            print(f"Has sumado {puntaje} puntos")
+            
+            nombre = input("¿Cuál es tu nombre? ")  # Le pido el nombre del jugador
+            guardar_puntajes(nombre, puntaje, palabra_correcta, intentos)  # Guardo el puntaje en el archivo JSON
+            break
     
     # Si se acaban los intentos
     if "".join(adivinanza) != palabra_correcta:
         print(f"No has adivinado, la palabra correcta era: {palabra_correcta}")
+        print("No has sumado puntos en esta ocasión")
         print("          0  ")
-        print("         / \ ")
+        print("         / \\ ")
         print("          |  ")
-        print("         / \ ")
+        print("         / \\ ")
 
 # Función principal para comenzar a adivinar
 def comenzar_a_adivinar():
-    print("¿En qué idioma desea jugar?:")
+    print("¿En qué idioma deseas jugar?:")
     print("1. Inglés")
     print("2. Español")
     print("3. Volver al menú anterior")
     print("-" * len("3. Volver al menú anterior") )
     print("")
+
     while True:
-        idioma = int(input("Indique la opción: "))
+        idioma = int(input("Indica la opción: "))
         
         if idioma == 1:
             print("Comencemos a jugar en inglés")
-            palabra = obtener_palabra_aleatoria()  # Obtener palabra aleatoria
-            print("Pista:", palabra["pista"])  # Mostrar pista
-            adivinar_palabra(palabra["ingles"])  # Pasar la palabra en inglés para adivinar
-            break
+            palabra = obtener_palabra_aleatoria()  # Obtengo una palabra aleatoria
+            print("Pista:", palabra["pista"])  # Muestro la pista
+            adivinar_palabra(palabra["ingles"])  # Paso la palabra en inglés para adivinar
+            #break
         elif idioma == 2:
             print("Comencemos a jugar en español")
-            palabra = obtener_palabra_aleatoria()  # Obtener palabra aleatoria
-            print("Pista:", palabra["pista"])  # Mostrar pista
-            adivinar_palabra(palabra["castellano"])  # Pasar la palabra en español para adivinar
+            palabra = obtener_palabra_aleatoria()  # Obtengo una palabra aleatoria
+            print("Pista:", palabra["pista"])  # Muestro la pista
+            adivinar_palabra(palabra["castellano"])  # Paso la palabra en español para adivinar
 
 comenzar_a_adivinar()
