@@ -2,251 +2,301 @@
     {
         "ID": 1,
         "ingles": "apple",
-        "castellano": "manzana"
+        "castellano": "manzana",
+        "pista": "Es una fruta roja o verde, y puede ser una marca de tecnolog\u00eda."
     },
     {
         "ID": 2,
         "ingles": "banana",
-        "castellano": "banana"
+        "castellano": "banana",
+        "pista": "Es una fruta amarilla, alargada y dulce."
     },
     {
         "ID": 3,
         "ingles": "grape",
-        "castellano": "uva"
+        "castellano": "uva",
+        "pista": "Es una fruta peque\u00f1a y redonda, puede ser morada o verde."
     },
     {
         "ID": 4,
         "ingles": "orange",
-        "castellano": "naranja"
+        "castellano": "naranja",
+        "pista": "Es una fruta c\u00edtrica de color naranja."
     },
     {
         "ID": 5,
         "ingles": "strawberry",
-        "castellano": "fresa"
+        "castellano": "fresa",
+        "pista": "Es una fruta roja, peque\u00f1a y dulce."
     },
     {
         "ID": 6,
         "ingles": "cat",
-        "castellano": "gato"
+        "castellano": "gato",
+        "pista": "Es un animal felino que suele ser dom\u00e9stico."
     },
     {
         "ID": 7,
         "ingles": "dog",
-        "castellano": "perro"
+        "castellano": "perro",
+        "pista": "Es un animal canino, conocido como el mejor amigo del hombre."
     },
     {
         "ID": 8,
         "ingles": "house",
-        "castellano": "casa"
+        "castellano": "casa",
+        "pista": "Es el lugar donde vives, con paredes y techo."
     },
     {
         "ID": 9,
         "ingles": "car",
-        "castellano": "auto"
+        "castellano": "auto",
+        "pista": "Es un veh\u00edculo que se usa para viajar."
     },
     {
         "ID": 10,
         "ingles": "tree",
-        "castellano": "arbol"
+        "castellano": "arbol",
+        "pista": "Es una planta que crece muy alta, con un tronco fuerte."
     },
     {
         "ID": 11,
         "ingles": "computer",
-        "castellano": "computadora"
+        "castellano": "computadora",
+        "pista": "Es un aparato electr\u00f3nico usado para calcular y crear programas."
     },
     {
         "ID": 12,
         "ingles": "keyboard",
-        "castellano": "teclado"
+        "castellano": "teclado",
+        "pista": "Es un dispositivo que permite escribir en una computadora."
     },
     {
         "ID": 13,
         "ingles": "mouse",
-        "castellano": "rato"
+        "castellano": "rato",
+        "pista": "Es un dispositivo apuntador usado para interactuar con la computadora."
     },
     {
         "ID": 14,
         "ingles": "screen",
-        "castellano": "pantalla"
+        "castellano": "pantalla",
+        "pista": "Es una superficie en la que se proyectan im\u00e1genes o informaci\u00f3n."
     },
     {
         "ID": 15,
         "ingles": "monitor",
-        "castellano": "monitor"
+        "castellano": "monitor",
+        "pista": "Es una pantalla que muestra lo que ves en la computadora."
     },
     {
         "ID": 16,
         "ingles": "sun",
-        "castellano": "sol"
+        "castellano": "sol",
+        "pista": "Es el cuerpo celeste que ilumina el d\u00eda en la Tierra."
     },
     {
         "ID": 17,
         "ingles": "moon",
-        "castellano": "luna"
+        "castellano": "luna",
+        "pista": "Es el cuerpo celeste que ilumina la noche."
     },
     {
         "ID": 18,
         "ingles": "star",
-        "castellano": "estrella"
+        "castellano": "estrella",
+        "pista": "Es el astro brillante que aparece en el cielo de noche."
     },
     {
         "ID": 19,
         "ingles": "sky",
-        "castellano": "cielo"
+        "castellano": "cielo",
+        "pista": "Es el espacio sobre la Tierra donde est\u00e1n las nubes."
     },
     {
         "ID": 20,
         "ingles": "cloud",
-        "castellano": "nube"
+        "castellano": "nube",
+        "pista": "Es una masa visible de agua en el cielo."
     },
     {
         "ID": 21,
         "ingles": "book",
-        "castellano": "libro"
+        "castellano": "libro",
+        "pista": "Es una herramienta para escribir."
     },
     {
         "ID": 22,
         "ingles": "pen",
-        "castellano": "pluma"
+        "castellano": "pluma",
+        "pista": "Es un objeto de escritura usado para escribir en papel."
     },
     {
         "ID": 23,
         "ingles": "pencil",
-        "castellano": "lapiz"
+        "castellano": "lapiz",
+        "pista": "Es un instrumento usado para escribir sobre papel."
     },
     {
         "ID": 24,
         "ingles": "paper",
-        "castellano": "papel"
+        "castellano": "papel",
+        "pista": "Es el material en el que se escriben las ideas."
     },
     {
         "ID": 25,
         "ingles": "notebook",
-        "castellano": "cuaderno"
+        "castellano": "cuaderno",
+        "pista": "Es un objeto donde se toman notas y se escriben cosas."
     },
     {
         "ID": 26,
         "ingles": "school",
-        "castellano": "escuela"
+        "castellano": "escuela",
+        "pista": "Es el lugar donde los ni\u00f1os van a aprender."
     },
     {
         "ID": 27,
         "ingles": "teacher",
-        "castellano": "maestro"
+        "castellano": "maestro",
+        "pista": "Es una persona que ense\u00f1a en la escuela."
     },
     {
         "ID": 28,
         "ingles": "student",
-        "castellano": "estudiante"
+        "castellano": "estudiante",
+        "pista": "Es una persona que aprende en la escuela."
     },
     {
         "ID": 29,
         "ingles": "classroom",
-        "castellano": "aula"
+        "castellano": "aula",
+        "pista": "Es el espacio donde se toman clases."
     },
     {
         "ID": 30,
         "ingles": "blackboard",
-        "castellano": "pizarra"
+        "castellano": "pizarra",
+        "pista": "Es una superficie que se usa para escribir o dibujar."
     },
     {
         "ID": 31,
         "ingles": "city",
-        "castellano": "ciudad"
+        "castellano": "ciudad",
+        "pista": "Es una gran \u00e1rea urbana donde vive mucha gente."
     },
     {
         "ID": 32,
         "ingles": "town",
-        "castellano": "pueblo"
+        "castellano": "pueblo",
+        "pista": "Es un lugar con menos densidad de poblaci\u00f3n que una ciudad."
     },
     {
         "ID": 33,
         "ingles": "village",
-        "castellano": "villa"
+        "castellano": "villa",
+        "pista": "Es una localidad m\u00e1s peque\u00f1a que una ciudad."
     },
     {
         "ID": 34,
         "ingles": "mountain",
-        "castellano": "montana"
+        "castellano": "montana",
+        "pista": "Es una gran elevaci\u00f3n de tierra."
     },
     {
         "ID": 35,
         "ingles": "river",
-        "castellano": "rio"
+        "castellano": "rio",
+        "pista": "Es un curso de agua que fluye por la tierra."
     },
     {
         "ID": 36,
         "ingles": "ocean",
-        "castellano": "oceano"
+        "castellano": "oceano",
+        "pista": "Es una gran masa de agua salada."
     },
     {
         "ID": 37,
         "ingles": "beach",
-        "castellano": "playa"
+        "castellano": "playa",
+        "pista": "Es una zona de arena a orillas del mar."
     },
     {
         "ID": 38,
         "ingles": "desert",
-        "castellano": "desierto"
+        "castellano": "desierto",
+        "pista": "Es una zona muy \u00e1rida con poca vegetaci\u00f3n."
     },
     {
         "ID": 39,
         "ingles": "forest",
-        "castellano": "bosque"
+        "castellano": "bosque",
+        "pista": "Es un \u00e1rea con gran cantidad de \u00e1rboles y vida salvaje."
     },
     {
         "ID": 40,
         "ingles": "jungle",
-        "castellano": "selva"
+        "castellano": "selva",
+        "pista": "Es una regi\u00f3n tropical con abundante vegetaci\u00f3n."
     },
     {
         "ID": 41,
         "ingles": "bird",
-        "castellano": "pajaro"
+        "castellano": "pajaro",
+        "pista": "Es un animal con alas que puede volar."
     },
     {
         "ID": 42,
         "ingles": "fish",
-        "castellano": "pez"
+        "castellano": "pez",
+        "pista": "Es un animal acu\u00e1tico que vive en el mar."
     },
     {
         "ID": 43,
         "ingles": "lion",
-        "castellano": "leon"
+        "castellano": "leon",
+        "pista": "Es un gran felino, conocido por su melena."
     },
     {
         "ID": 44,
         "ingles": "tiger",
-        "castellano": "tigre"
+        "castellano": "tigre",
+        "pista": "Es un animal salvaje similar al le\u00f3n, pero m\u00e1s peque\u00f1o."
     },
     {
         "ID": 45,
         "ingles": "elephant",
-        "castellano": "elefante"
+        "castellano": "elefante",
+        "pista": "Es un animal muy grande con trompa y colmillos."
     },
     {
         "ID": 46,
         "ingles": "friend",
-        "castellano": "amigo"
+        "castellano": "amigo",
+        "pista": "Es una persona que comparte una relaci\u00f3n cercana."
     },
     {
         "ID": 47,
         "ingles": "family",
-        "castellano": "familia"
+        "castellano": "familia",
+        "pista": "Es un grupo de personas que comparten un lazo sangu\u00edneo."
     },
     {
         "ID": 48,
         "ingles": "love",
-        "castellano": "amor"
+        "castellano": "amor",
+        "pista": "Es un sentimiento profundo de afecto hacia otra persona."
     },
     {
         "ID": 49,
         "ingles": "peace",
-        "castellano": "paz"
+        "castellano": "paz",
+        "pista": "Es la ausencia de conflicto y violencia."
     },
     {
         "ID": 50,
         "ingles": "happiness",
-        "castellano": "felicidad"
+        "castellano": "felicidad",
+        "pista": "Es el estado de bienestar y satisfacci\u00f3n."
     }
 ]
