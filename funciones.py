@@ -101,6 +101,26 @@ def adivinar_palabra(palabra_correcta):
     
     while intentos > 0:
         print(f"Intentos restantes: {intentos}")
+        if intentos == 5:
+            print("          0  ")
+        elif intentos == 4:
+            print("          0  ")
+            print("         /   ")
+        elif intentos == 3:
+            print("          0  ")
+            print("         / \ ")
+        elif intentos == 2:
+            print("          0  ")
+            print("         / \ ")
+            print("          |  ")
+        elif intentos == 1:
+            print("          0  ")
+            print("         / \ ")
+            print("          |  ")
+            print("         /   ")
+        
+            
+        
         print(f"Letras correctas: {letras_correctas}")
         print(f"Letras incorrectas: {letras_incorrectas}")
         print("Palabra actual: " + "".join(adivinanza))
@@ -126,11 +146,16 @@ def adivinar_palabra(palabra_correcta):
         # Verificar si el jugador ha adivinado toda la palabra
         if "".join(adivinanza) == palabra_correcta:
             print(f"¡Has adivinado la palabra! La palabra correcta era: {palabra_correcta}")
-            break
+            # break
+            comenzar_a_adivinar()
     
     # Si se acaban los intentos
     if "".join(adivinanza) != palabra_correcta:
         print(f"No has adivinado, la palabra correcta era: {palabra_correcta}")
+        print("          0  ")
+        print("         / \ ")
+        print("          |  ")
+        print("         / \ ")
 
 # Función principal para comenzar a adivinar
 def comenzar_a_adivinar():
@@ -146,13 +171,13 @@ def comenzar_a_adivinar():
         if idioma == 1:
             print("Comencemos a jugar en inglés")
             palabra = obtener_palabra_aleatoria()  # Obtener palabra aleatoria
-            print("Pista:", palabra["pista"])  # Mostrar pista en inglés
+            print("Pista:", palabra["pista"])  # Mostrar pista
             adivinar_palabra(palabra["ingles"])  # Pasar la palabra en inglés para adivinar
             break
         elif idioma == 2:
             print("Comencemos a jugar en español")
             palabra = obtener_palabra_aleatoria()  # Obtener palabra aleatoria
-            print("Pista:", palabra["pista"])  # Mostrar pista en español
-            adivinar_palabra(palabra["castellano"])  # Pasar la palabra en inglés para adivinar
+            print("Pista:", palabra["pista"])  # Mostrar pista
+            adivinar_palabra(palabra["castellano"])  # Pasar la palabra en español para adivinar
 
 comenzar_a_adivinar()
