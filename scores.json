@@ -32,5 +32,53 @@
         "puntaje": 12,
         "palabra": "bosque",
         "intentos_restantes": 6
+    },
+    {
+        "nombre": "Lucia",
+        "puntaje": 12,
+        "palabra": "pajaro",
+        "intentos_restantes": 6
+    },
+    {
+        "nombre": "Rocio",
+        "puntaje": 8,
+        "palabra": "pluma",
+        "intentos_restantes": 3
+    },
+    {
+        "nombre": "Lucia",
+        "puntaje": 8,
+        "palabra": "desert",
+        "intentos_restantes": 2
+    },
+    {
+        "nombre": "Marco",
+        "puntaje": 9,
+        "palabra": "fresa",
+        "intentos_restantes": 4
+    },
+    {
+        "nombre": "Juan",
+        "puntaje": 14,
+        "palabra": "cuaderno",
+        "intentos_restantes": 6
+    },
+    {
+        "nombre": "Oliver",
+        "puntaje": 14,
+        "palabra": "cuaderno",
+        "intentos_restantes": 6
+    },
+    {
+        "nombre": "Robertito",
+        "puntaje": 10,
+        "palabra": "house",
+        "intentos_restantes": 5
+    },
+    {
+        "nombre": "Nicolas",
+        "puntaje": 7,
+        "palabra": "amigo",
+        "intentos_restantes": 2
     }
 ]

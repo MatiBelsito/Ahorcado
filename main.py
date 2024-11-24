@@ -1,62 +1,36 @@
-import funciones
-
-
-def adivinar():
-    
-    
-    print ("¿En que idioma desea jugar ?:")
-    print ("1. Ingles")
-    print ("2. Español")
-    print ("3. Volver al menu anterior")
-    
-    while True:
-    
-        idioma = int(input("Indique la opción: "))
-    
-        if (idioma == 1):
-            print ("comencemos a jugar en ingles")
-        
-        elif (idioma ==2):
-            print ("comencemos a jugar en español")
-        elif (idioma ==3):
-            main()   
-        
-        else:
-            print ("opción invalida, reintente: ")
-
-
-# adivinar()
-
+import json
+from funciones import comenzar_a_adivinar, mostrar_top_5_puntajes
+# from funciones import *
 
 def mostrar_menu():
-    print("----- Menú de Opciones -----")
+    print ("-" * 8)
+    print ("AHORCADO")
+    print ("-" * 8)
+    print("Menu Principal")
     print("1. Jugar")
     print("2. Puntajes")
     print("3. Salir")
-    print("-----------------------------")
+    print("-" * 30)
 
-
-# mostrar_menu()
 
 def main():
-    
-    
     while True:
-        mostrar_menu()
-        opcion = input("Selecciona una opción: ")
-        
-        if opcion == '1':
-           adivinar()
-        elif opcion == '2':
-            print ("Puntajes")
-        elif opcion == '3':
-            print("Saliendo del programa...")
-            break
-        else:
-            print("Opción no válida. Intente de nuevo.")
+        mostrar_menu()  # Muestra el menú
+        try:
+            opcion = int(input("Selecciona una opción: "))  # Solicita la opción del usuario
+            
+            if opcion == 1:
+                comenzar_a_adivinar()  # Llama a la función para comenzar a jugar
+            elif opcion == 2:
+                mostrar_top_5_puntajes()  # Llama a la función para mostrar los puntajes
+            elif opcion == 3:
+                print("¡Gracias por jugar! ¡Hasta luego!")  # Mensaje de despedida
+                exit()  # Sale del programa
+            else:
+                print("Opción no válida. Por favor, selecciona una opción entre 1 y 3.")
+            
+        except ValueError:
+            print("Entrada no válida. Por favor, ingresa un número entero.")  # Maneja el error si se ingresa algo no numérico
 
-main()
 
-
-
-
+main()  # Llamo a la función principal para ejecutar el menú
